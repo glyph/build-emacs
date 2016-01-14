@@ -39,7 +39,7 @@ loud when it is given.
 
 ### fetch-emacs-from-ftp
 
-This takes an ftp url (`ftp://ftp.gnu.org/gnu/emacs/`, for example), and
+This takes an URL (`https://ftp.gnu.org/gnu/emacs/`, for example), and
 downloads the latest version of the Emacs source code found there. It will
 also convert the source from a `.tar.xz` to a `.tar.bz2` (so that the main
 build VMs don't need to have "XZ" installed).
